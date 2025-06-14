@@ -1,7 +1,5 @@
 pipeline {
-    agent {
-        label 'windows'
-    }
+    agent any
 
     environment {
         DEP_CHECK_PATH = 'C:\\Herramientas\\dependency-check\\bin\\dependency-check.bat'
